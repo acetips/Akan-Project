@@ -24,9 +24,40 @@
     font-size: 20px;
     padding-left: 200px;
     padding-right: 200px;
-    line-height: 40px;
+    line-height: 35px;
 }
 a{
     color: salmon;
     font-style: oblique;
+}
+.details{
+    font-size: 20px;
+
+}
+.YOB{
+    color: salmon;
+}
+#yearofbirth{
+    margin: 20px;
+}
+#monthofbirth{
+    margin: 20px;
+}
+#dateofbirth{
+    margin: 20px;
+}
+.malefemale{
+    padding-left: 550px;
+    display: flex;
+    padding-bottom: 20px;
+}
+button{
+    border-radius: 50px;
+    background-color: salmon;
+    width: 10%;
+    height: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 50px;
 }
