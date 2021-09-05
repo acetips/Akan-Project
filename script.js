@@ -7,3 +7,5 @@ var dateformat=new Date(date,month,year);
 dateformat.setDate(parseInt(date));
 dateformat.setMonth(parseInt(month));
 dateformat.setUTCFullYear(parseInt(year));
+
+var dayOfWeek=dateformat.getDay();
