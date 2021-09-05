@@ -30,4 +30,8 @@ if (yearofbirth==NaN||yearofbirth.length!=4||yearofbirth==null){
     alert('Kindly enter a valid month.Eg 06');
 } else if(dateofbirth<1||dateofbirth==NaN||dateofbirth==null||dateofbirth>31){
     alert('Kindly enter a valid date. Eg 26');
+} else if (document.getElementById('Male').checked==true && document.getElementById('Female').checked==false){
+    alert('Your Akan name is'+namesOfMales[dayOfWeek]+'!');
+} else if (document.getElementById('Female').checked==true && document.getElementById('Male').checked==false){
+    alert('Your Akan name is'+namesOfMales[dayOfWeek]+'!');
 }
