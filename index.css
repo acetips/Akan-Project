@@ -1,5 +1,5 @@
 .bodybackground{
-    background-color: rgb(21, 21, 65);
+    background-image: url(https://besthqwallpapers.com/Uploads/30-12-2020/149719/thumb2-dark-blue-lines-background-abstract-blue-background-creative-blue-background-lines-background.jpg);
     color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
@@ -53,7 +53,7 @@ a{
 }
 button{
     border-radius: 50px;
-    background-color: salmon;
+    background-color: rgb(235, 65, 46);
     width: 10%;
     height: 50px;
     font-size: 15px;
