@@ -24,3 +24,10 @@ if (dayOfWeek===0){
 } else if (dayOfWeek===6){
     ('Saturday');
 }
+if (yearofbirth==NaN||yearofbirth.length!=4||yearofbirth==null){
+    alert('Invalid year. Enter at least 4 digits.');
+} else if (monthofbirth<1||monthofbirth==NaN||monthofbirth==null||monthofbirth>12){
+    alert('Kindly enter a valid month.Eg 06');
+} else if(dateofbirth<1||dateofbirth==NaN||dateofbirth==null||dateofbirth>31){
+    alert('Kindly enter a valid date. Eg 26');
+}
