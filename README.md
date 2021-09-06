@@ -8,12 +8,12 @@
 * Read through the description on the landing page to undestand what the web application does.
 * Scroll down to see a form.
 * Inside the form, fill in your valid birth details then click on the submit button to see your Akan name.
-{Behaviour Driven Development(BDD)}
-The Website Displays Form For Entering Day,Month,Year & Gender INPUT: "User's Day Filled" INPUT: "User's Month Filled" INPUT: "User's Year Filled" INPUT: "User's Gender Filled" OUTPUT: "Displays User's Akan Name"
-The Website Displays an Error Message if the Day Input Left Blank INPUT: "" OUTPUT: "Displays Error Message"
-The Website Displays an Error Message if the Month Input Left Blank INPUT: "" OUTPUT: "Displays Error Message"
-The Website Displays an Error Message if the Year Input Left Blank INPUT: "" OUTPUT: "Displays Error Message"
-The Website Displays an Error Message if the Gender Not picked INPUT: "" OUTPUT: "Display an Error Message"
+## Behaviour Driven Development(BDD)
+*The Website Displays Form For Entering Day,Month,Year & Gender INPUT: "User's Day Filled" INPUT: "User's Month Filled" INPUT: "User's Year Filled" INPUT: "User's     Gender Filled" OUTPUT: "Displays User's Akan Name"
+*The Website Displays an Error Message if the Day Input Left Blank INPUT: "" OUTPUT: "Displays Error Message"
+*The Website Displays an Error Message if the Month Input Left Blank INPUT: "" OUTPUT: "Displays Error Message"
+*The Website Displays an Error Message if the Year Input Left Blank INPUT: "" OUTPUT: "Displays Error Message"
+*The Website Displays an Error Message if the Gender Not picked INPUT: "" OUTPUT: "Display an Error Message"
 ## Known Bugs
 {The outputted Akan name is not as accurate.}
 ## Technologies Used
