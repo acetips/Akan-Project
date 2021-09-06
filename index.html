@@ -5,33 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Akan Names</title>
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body> 
-    <div id="errormessage"></div>
-    <form>
-        <div>
-            <label for="year of birth">Year of Birth:</label>
-            <input id="year of birth" year of birth="year of birth" type="number" required placeholder="YYYY">
+   <div class="bodybackground">
+    <h1 class="title">Akan Name Generator</h1>
+    <h2 class="author">by Emelda Perez</h2>
+    <p class="Description">Description:</p>
+    <p class="descriptiontext">The Akan Name Generator acquaints you as a user of your Akan name based on your gender and birth details. The Akan is a language group in Ghana, that names its members based on the day of the week on which an individual was born. According to the Akan, these names have significant meanings. Therefore, upon entering your birth details, this web application auto generates your Akan name. Click <a href="http://www.scielo.org.za/scielo.php?script=sci_arttext&pid=S0259-94222017000300016">here</a> to learn more about the Akan people.</p>
+    <p class="details">To know your Akan name, <em>fill in the details below:</em></p>
+    <div id="invalid"></div>
+    <form id="form">
+        <div class="YOB">
+            <div>
+                <label for="yearofbirth">Year of Birth:</label>
+                <input id="yearofbirth" yearofbirth="yearofbirth" type="number" required placeholder="YYYY Eg 1999">
+            </div>
+            <div>
+                <label for="monthofbirth">Birth Month:</label>
+                <input id="monthofbirth" monthofbirth="monthofbirth" type="number" required placeholder="MM">
+            </div>
+            <div>
+                <label for="dateofbirth">Date of Birth:</label>
+                <input id="dateofbirth" dateofbirth="dateofbirth" type="number" required placeholder="DD">
+            </div>
         </div>
-        <div>
-            <label for="month of birth">Month of Birth:</label>
-            <input id="month of birth" month of birth="month of birth" type="number" required placeholder="MM">
-        </div>
-        <div>
-            <label for="date of birth">Date of Birth:</label>
-            <input id="date of birth" date of birth="date of birth" type="number" required placeholder="DD">
-        </div> 
-        <p>Please select your gender:</p>
-        <div>
-            <label for="Male"> Male</label>
-            <input id="Male" Male="Male" type="checkbox">
-        </div>
-        <div>
-            <label for="Female"> Female</label>
-            <input id="Female" Female="Female" type="checkbox">
-        </div> 
-        <button type="submitgender">Submit</button>
-    </form>
+            <p class="please">Please select your gender:</p>
+            <div class="malefemale">
+                <div>
+                    <label for="Male"> Male</label>
+                    <input id="Male" Male="Male" type="checkbox">
+                </div>
+                <div>
+                    <label for="Female"> Female</label>
+                    <input id="Female" Female="Female" type="checkbox">
+                </div> 
+            </div>
+        <button type="button" id="submit" onclick="check()" class="btn btn-primary">Submit</button>
+        </form>
+   </div>
+   <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
